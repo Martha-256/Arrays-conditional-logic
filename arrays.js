@@ -12,14 +12,15 @@ function fizzbuzz(){
    
 
 if (result1==0 && !(result2==0)) {
-    document.write("Fizz");
+    console.log("Fizz");
     } else if(result2==0 && !(result1==0)){
-    document.write("Buzz")
+      console.log("Buzz")
     }else if (result1 == 0 && result2 == 0) {
-    document.write("fizzBuzz");
+      console.log("fizzBuzz");
     } else {
-    document.write(result);
+      console.log(result);
   }
 
 
 }
+console.log(fizzbuzz());
