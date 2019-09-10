@@ -1,6 +1,6 @@
-function fizzBuzz() {
-    var list1 = ["cat","dog","man"];
-    var list2 = ["cat","dog"];
+function fizzBuzz(list1,list2) {
+    /*var list1 = ["cat","dog","man"],["cat","dog"];
+    var list2 = ["cat","dog"];*/
     var sum = list1.length+list2.length;
 
 if (sum%3==0 && !(sum%5==0)) {
@@ -13,6 +13,6 @@ if (sum%3==0 && !(sum%5==0)) {
       return sum;
   }
 }
-console.log(fizzBuzz());
+//console.log(fizzBuzz());
 
 module.exports = fizzBuzz;
